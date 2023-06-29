@@ -22,10 +22,12 @@
 // *******************************************************************************/
 package edu.umsl;
 
+import java.util.*;
 import java.util.Scanner;
 
 public class perfectSquare {
     public static void main(String[] args) {
+
         System.out.println("This program will allow you to discover information about Question VI " +
                 "by iterating through a/b pairs and sharing the results with the user.");
         long X = inputValidate();
